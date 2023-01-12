@@ -42,7 +42,7 @@
         <div class="form-wrapper">
           <h2>Get a Free Estimate</h2>
           <span class="line"></span>
-          <form action="/" method="post" autocomplete="off">
+          <form action='https://lead.hellomoving.com/LEADSGWHTTP.lidgw?&API_ID=2C14CC8D6FA4&MOVERREF=info@crosscountrymovers.info' method="post" autocomplete="off">
             <div class="input-field">
               <label for="firstname">First Name:</label>
               <input
@@ -120,7 +120,7 @@
               <label for="date">Pickup Date:</label>
               <input
                 type="date"
-                name="movedte"
+                id="movedte"
                 pattern="[0-9]{5}"
                 title="Preferred Move Date"
                 placeholder="mm/dd/yyyy"
@@ -128,6 +128,11 @@
                 required
               />
             </div>
+            <input
+            type="text"
+            name="movedte"
+            id="date"
+            class="add-fields">
             <input
               type="text"
               name="servtypeid"
